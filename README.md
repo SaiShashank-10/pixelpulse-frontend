@@ -71,7 +71,7 @@ PixelPulse isn't just a random music generator. It uses a **Dual-AI Architecture
 
 | **Curated Tracks** | **Spotify Playlist** |
 |:---:|:---:|
-| <img src="Screenshot 2025-12-25 000401.png" width="600"> | <img src="Screenshot 2025-12-25 000322.png" width="600"> |
+| <img src="Screenshot 2025-12-25 000401.png" width="600"> | <img src="Screenshot 2025-12-25 000322.png" width="800"> |
 | *Audio DNA & Top 5 Tracks* | *Playlist saved to Spotify* |
 
 
