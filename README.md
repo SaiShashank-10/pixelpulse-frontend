@@ -107,4 +107,4 @@ PixelPulse isn't just a random music generator. It uses a **Dual-AI Architecture
 [LinkedIn](https://linkedin.com/in/vakkalanka-sai-shashank) | [GitHub](https://github.com/SaiShashank-10)
 
 ---
-*Made with Lot's of Coffee ☕ and ❤️* | **Copyright © 2025 Sai Shashank. All rights reserved.**
+*Copyright **©** 2025 Sai Shashank. All rights reserved.* | *Made with Lot's of Coffee ☕ and ❤️*
