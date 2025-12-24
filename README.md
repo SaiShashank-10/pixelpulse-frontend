@@ -66,8 +66,14 @@ PixelPulse isn't just a random music generator. It uses a **Dual-AI Architecture
 
 | **Computer Vison Detection** | **Intelligence Report** |
 |:---:|:---:|
-| <img src="Screenshot 2025-12-24 233910.png" width="600"> | <img src="Screenshot 2025-12-24 233715.png" width="400"> |
+| <img src="Screenshot 2025-12-24 233910.png" width="600"> | <img src="Screenshot 2025-12-24 233715.png" width="600"> |
 | *Real-time object & vibe detection* | *AI info about Image* |
+
+| **Curated Tracks** | **Spotify Playlist** |
+|:---:|:---:|
+| <img src="Screenshot 2025-12-25 000401.png" width="600"> | <img src="Screenshot 2025-12-25 000322.png" width="600"> |
+| *Audio DNA & Top 5 Tracks* | *Playlist saved to Spotify* |
+
 
 
 *(Note: Replace the placeholder links above with actual screenshots of your app for maximum impact!)*
