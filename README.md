@@ -14,7 +14,7 @@ PixelPulse is a full-stack AI application that uses **Computer Vision (YOLOv8 + 
 ---
 
 ## 🚀 Live Demo
-**👉 [Click Here to Try PixelPulse Live](YOUR_STREAMLIT_APP_LINK_HERE)** *(Note: Requires a Spotify account to save playlists)*
+**👉 [Click Here to Try PixelPulse Live](https://pixelpulse-app-v.streamlit.app/)** *(Note: Requires a Spotify account to save playlists)*
 
 ---
 
