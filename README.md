@@ -14,7 +14,8 @@ PixelPulse is a full-stack AI application that uses **Computer Vision (YOLOv8 + 
 ---
 
 ## 🚀 Live Demo
-**👉 [Click Here to Try PixelPulse Live](https://pixelpulse-app-v.streamlit.app/)** *(Note: Requires a Spotify account to save playlists)*
+**👉 [Click Here to Try PixelPulse Live](https://pixelpulse-app-v.streamlit.app/)**
+*(Note: Requires a Spotify account to save playlists)*
 
 ---
 
@@ -22,7 +23,8 @@ PixelPulse is a full-stack AI application that uses **Computer Vision (YOLOv8 + 
 
 PixelPulse isn't just a random music generator. It uses a **Dual-AI Architecture**:
 
-1.  **👁️ Visual Intelligence (CLIP):** * Uses OpenAI's `CLIP-ViT-Base` model to convert the image into a high-dimensional vector.
+1.  **👁️ Visual Intelligence (CLIP):**
+    * Uses OpenAI's `CLIP-ViT-Base` model to convert the image into a high-dimensional vector.
     * Matches the image against artistic anchors (e.g., *Cyberpunk, Noir, Golden Hour, Melancholic*).
 2.  **🚗 Object Detection (YOLOv8):**
     * Detects physical objects (Cars, Gym, Food, People) to contextualize the music.
@@ -68,36 +70,41 @@ PixelPulse isn't just a random music generator. It uses a **Dual-AI Architecture
 
 ## 🏃‍♂️ How to Run Locally
 
-1. **Clone the Repo**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/PixelPulse.git](https://github.com/YOUR_USERNAME/PixelPulse.git)
-   cd PixelPulse
+1.  **Clone the Repo**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/PixelPulse.git](https://github.com/YOUR_USERNAME/PixelPulse.git)
+    cd PixelPulse
+    ```
 
+2.  **Backend Setup (FastAPI)**
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    # Add your Spotify Credentials in main.py
+    uvicorn main:app --reload
+    ```
 
-2. Backend Setup (FastAPI)
-   cd backend
-  pip install -r requirements.txt
+3.  **Frontend Setup (Streamlit)**
+    ```bash
+    # Open a new terminal
+    pip install -r requirements.txt
+    streamlit run app.py
+    ```
 
-# Add Spotify credentials inside main.py
-uvicorn main:app --reload
+---
 
-3. Frontend Setup (Streamlit)
+## ☁️ Deployment Architecture
 
-   # Open a new terminal
-  pip install -r requirements.txt
-  streamlit run app.py
+* **Frontend:** Hosted on **Streamlit Community Cloud** (Connected to GitHub).
+* **Backend:** Dockerized and hosted on **Hugging Face Spaces** (Free Tier CPU Basic).
+* **Communication:** REST API via HTTPS.
 
+---
 
-☁️ Deployment Architecture
-Frontend: Hosted on Streamlit Community Cloud (Connected to GitHub).
+## 🤝 Contact
 
-Backend: Dockerized and hosted on Hugging Face Spaces (Free Tier CPU Basic).
+**Sai Shashank** *Full Stack Developer & AI Enthusiast*
+[LinkedIn](https://linkedin.com/in/vakkalanka-sai-shashank) | [GitHub](https://github.com/SaiShashank-10)
 
-Communication: REST API via HTTPS.
-
-🤝 Contact
-Sai Shashank Full Stack Developer & AI Enthusiast LinkedIn | GitHub
-
-Made with 🎵 and ☕ by PixelPulse Team
-
-
+---
+*Made with Lot's of Coffee ☕and ❤️ by PixelPulse Team*
